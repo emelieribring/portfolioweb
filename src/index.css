@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Lemon Milk'; /* Namnet du vill ge din font */
+  src: url('./Fonts/LEMONMILK-Bold.otf') format('truetype'); /* Sökvägen till din fontfil */
+  font-weight: normal; /* Vikt och stilinställningar om tillämpligt */
+  font-style: normal;
+}

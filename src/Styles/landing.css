@@ -1,0 +1,162 @@
+.wrapper{
+    max-width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 100%), url(../Img/BGlanding.jpg);    
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.frontPage{
+    max-width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    background-color: transparent;
+}
+
+.frontText, .frontPic{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frontPic{
+    align-items: flex-end;
+}
+
+.frontText h1{
+    font-size: 5vw;
+    color: aliceblue;
+    margin-left: 100px;
+    font-family: Lemon Milk;
+}
+
+.frontText h1 span{
+    font-size: 2vw;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#workBtn{
+    width: 12vw;
+    height: 7vh;
+    margin-left: 150px;
+    text-transform: uppercase;
+    font-size: 1.2vw;
+    font-family: Lemon Milk;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+.btns{
+    width: 25vw;
+    height: 10vh;
+    margin-right: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    backdrop-filter: blur(5px);
+    background: transparent;
+    color: #fff;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+    font-family: Lemon Milk;
+}
+
+#btnOne{
+    position: relative;
+    right: 50px;
+}
+
+#btnThree{
+    position: relative;
+    right: 50px;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+      filter: blur(10px);
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .hidden {
+    animation: slideInFromLeft 2s forwards; /* Använd keyframes-nyckelramen med 2 sekunders varaktighet */
+  }
+  
+
+  @keyframes slideInFromRight {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+      filter: blur(10px);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .btns {
+    animation: slideInFromRight 2s forwards; /* Använd keyframes-nyckelramen med 2 sekunders varaktighet */
+  }
+    
+
+
+@media screen and (max-width: 768px) {
+    .frontPage{
+        flex-direction: column;
+    }
+
+    .frontText{
+        width: 100vw;
+    }
+
+    .frontText h1{
+        font-size: 10vw;
+        margin-left: 50px;
+    }
+    .frontText h1 span{
+        font-size: 3vw;
+    }
+
+    #workBtn{
+        width: 30vw;
+        height: 5vh;
+        margin-left: 80px;
+        font-size: 2.5vw;
+    }
+
+    .frontPic{
+        align-items: center;
+        width: 100vw;
+    }
+
+    .btns{
+        width: 80vw;
+        height: 8vh;
+        margin-left: 100px;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 4vw;
+    }
+
+    #btnOne{
+        right: 0px;
+    }
+    
+    #btnThree{
+        right: 0px;
+    }
+}

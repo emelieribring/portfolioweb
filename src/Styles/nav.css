@@ -1,0 +1,31 @@
+nav{
+    width: 40vw;
+    height: 5vh;
+    background-color: rgba(80, 79, 79, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5vh;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    z-index: 1;
+    left: 30%;
+}
+
+nav ul{
+    width: 30vw;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: aliceblue;
+    font-size: 1vw;
+    font-family: Lemon Milk;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav{
+        display: none;
+    }
+}
