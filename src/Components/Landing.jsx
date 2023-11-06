@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import '../Styles/landing.css';
 import Navbar from './navbar';
 
-const words = ['Developer', 'Web Designer', 'Enthusiast', 'Dog Lover'];
+const words = ['Developer', 'Webdesigner', 'Enthusiast', 'Dog Lover'];
 
 function Landing() {
 
@@ -20,6 +20,7 @@ function Landing() {
     }, []);
 
   return (
+    <>
   <div className='wrapper'>
     <Navbar/>
     <div className='frontPage'>
@@ -34,7 +35,12 @@ function Landing() {
             <button id='btnFour' className='btns'>Wanna know my dog?</button>
         </div>
     </div>
+    <div className='overlay'></div>
   </div> 
+  <div className='secondWrapper'>
+
+  </div>
+  </>
   );
 }
 
