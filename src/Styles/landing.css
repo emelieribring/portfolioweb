@@ -1,5 +1,6 @@
 .wrapper{
     max-width: 100vw;
+    height: 100vh;
     background-image: radial-gradient(ellipse at center, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.5) 100%), url(../Img/BGlanding.jpg);    
     background-size: cover;
     display: flex;
@@ -17,7 +18,6 @@
 
 .frontText, .frontPic{
     width: 50vw;
-    height: 100vh;
     position: relative;
     display: flex;
     background-color: transparent;
