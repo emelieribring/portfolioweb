@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolioweb/static/css/main.8c8606e6.css",
-    "main.js": "/portfolioweb/static/js/main.729b2bca.js",
+    "main.css": "/portfolioweb/static/css/main.7887ee56.css",
+    "main.js": "/portfolioweb/static/js/main.967a6a1a.js",
     "static/js/787.6292dd76.chunk.js": "/portfolioweb/static/js/787.6292dd76.chunk.js",
+    "static/media/brown-rocky-mountain-with-snow.jpg": "/portfolioweb/static/media/brown-rocky-mountain-with-snow.7874144aa5b4f9527eb0.jpg",
     "static/media/BGlanding.jpg": "/portfolioweb/static/media/BGlanding.fcf24538bf902a01d090.jpg",
     "static/media/LEMONMILK-Bold.otf": "/portfolioweb/static/media/LEMONMILK-Bold.ac2b6389ba01ca1f431e.otf",
     "index.html": "/portfolioweb/index.html",
-    "main.8c8606e6.css.map": "/portfolioweb/static/css/main.8c8606e6.css.map",
-    "main.729b2bca.js.map": "/portfolioweb/static/js/main.729b2bca.js.map",
+    "main.7887ee56.css.map": "/portfolioweb/static/css/main.7887ee56.css.map",
+    "main.967a6a1a.js.map": "/portfolioweb/static/js/main.967a6a1a.js.map",
     "787.6292dd76.chunk.js.map": "/portfolioweb/static/js/787.6292dd76.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c8606e6.css",
-    "static/js/main.729b2bca.js"
+    "static/css/main.7887ee56.css",
+    "static/js/main.967a6a1a.js"
   ]
 }
