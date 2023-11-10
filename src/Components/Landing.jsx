@@ -66,8 +66,6 @@ function Landing() {
             <ul>
                 <li>React</li>
                 <li>Solidity</li>
-                <li>Phyton</li>
-                <li>Next.js</li>
             </ul>
             <p>Programs I work in</p>
             <ul>
