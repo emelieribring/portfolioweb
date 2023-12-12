@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolioweb/static/css/main.da8232ff.css",
-    "main.js": "/portfolioweb/static/js/main.28dc6de9.js",
+    "main.js": "/portfolioweb/static/js/main.449b7da3.js",
     "static/js/787.6292dd76.chunk.js": "/portfolioweb/static/js/787.6292dd76.chunk.js",
     "static/media/brown-rocky-mountain-with-snow.jpg": "/portfolioweb/static/media/brown-rocky-mountain-with-snow.7874144aa5b4f9527eb0.jpg",
     "static/media/BGlanding.jpg": "/portfolioweb/static/media/BGlanding.fcf24538bf902a01d090.jpg",
     "static/media/LEMONMILK-Bold.otf": "/portfolioweb/static/media/LEMONMILK-Bold.ac2b6389ba01ca1f431e.otf",
     "index.html": "/portfolioweb/index.html",
     "main.da8232ff.css.map": "/portfolioweb/static/css/main.da8232ff.css.map",
-    "main.28dc6de9.js.map": "/portfolioweb/static/js/main.28dc6de9.js.map",
+    "main.449b7da3.js.map": "/portfolioweb/static/js/main.449b7da3.js.map",
     "787.6292dd76.chunk.js.map": "/portfolioweb/static/js/787.6292dd76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da8232ff.css",
-    "static/js/main.28dc6de9.js"
+    "static/js/main.449b7da3.js"
   ]
 }
