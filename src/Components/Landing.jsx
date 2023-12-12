@@ -59,13 +59,13 @@ function Landing() {
                 <li>HTML5</li>
                 <li>CSS/SCSS</li>
                 <li>Javascript</li>
+                <li>Solidity</li>
             </ul>
         </div>
         <div className='infoRight'>
             <p>Frameworks</p>
             <ul>
                 <li>React</li>
-                <li>Solidity</li>
             </ul>
             <p>Programs I work in</p>
             <ul>
